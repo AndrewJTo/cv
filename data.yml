@@ -1,0 +1,29 @@
+Name: Andrew Towers
+Location: Brighton, UK
+
+Summary: |
+  TODO: Write personal summary
+
+Contact:
+  Email: andrewjto@proton.me
+  Web: andrewt.xyz
+  Linkedin: "https://www.linkedin.com/in/andrewjtowers/"
+
+Education:
+  - Entity: Tewkesbury High School
+    Location: Tewkesbury, UK
+    Credentials:
+      - GCSE ...
+
+Employment:
+  - Role: Food and Beverage Assistant
+    Entity: Hilton Hotels
+    Started: xxx
+    Stopped: yyy
+    Details:
+      - Served food
+
+Projects:
+  - Name: HTMX Forum
+    Site: "https://github.com/AndrewJTo/htmx-forum"
+    Role: Developer / Lead
