@@ -27,3 +27,5 @@ Projects:
   - Name: HTMX Forum
     Site: "https://github.com/AndrewJTo/htmx-forum"
     Role: Developer / Lead
+    Details:
+      - Forum web application with frontend written in HTMX and backend in Go.
