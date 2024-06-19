@@ -4,24 +4,72 @@ Location: Brighton, UK
 Summary: |
   TODO: Write personal summary
 
+Skills:
+  Languages:
+    - Go
+    - Typescript
+    - Python
+    - Go
+    - Java
+    - SQL
+  Tools:
+    - Google Cloud
+    - AWS
+    - Azure
+    - Vue
+    - Node.js
+    - Terraform
+    - Docker
+    - Hashicorp Vault
+    - Gitlab CI
+
 Contact:
   Email: andrewjto@proton.me
   Web: andrewt.xyz
   Linkedin: "https://www.linkedin.com/in/andrewjtowers/"
-
-Education:
-  - Entity: Tewkesbury High School
-    Location: Tewkesbury, UK
-    Credentials:
-      - GCSE ...
+  GitHub: "https://github.com/AndrewJTo/"
 
 Employment:
+  - Role: Software Engineer
+    Entity: Netbuilder
+    Started: Nov 2020
+    Stopped: Present
+    Details:
+      - Developed a microservices based REST API for an end to end HR application, using Typescript and Node.js
+      - Improved the application's authorization and authentication system. By reducing JWT size and caching access control information in Redis, resulting in a 50% improvement on application load time
+      - Led the development of an event series business analytics system using BigQuery and Looker Studio
+      - Built a reporting front end in Vue.js providing visibility on application usage to stakeholders
+      - Configured reusable local development environments replicating cloud functionality using Docker Compose 
+      - Automated deployment of 14 services to Google Cloud using terraform and Gitlab CI pipelines
+      - Increased test coverage to 80% by implementing and automating Vitest
+      - Reduced endpoint response time by up to 75% by optimising SQL queries and caching results in Redis
+      - Refactored JavaScript code into Typescript, implementing a test driven development approach
+      - Built cloud functions triggered by Pub/Sub
+      - Served on the Technology Board, attending quarterly meetings to plan the company’s technical direction
+      - Interviewing and onboarding new developers
+      - Automated secrets management infrastructure deployment for GOVERNMENT_DEPARTMENT saving £80K/year on their AWS bill. Simplifying the management of multiple environments using Gitlab CI, Terraform, and Ansible
+      - Implemented performance replication and disaster recovery for GOVERNMENT_DEPARTMENT’s Hashicorp Vault platform by replicating infrastructure on AWS and Azure
+      - Built dashboards and alerts tracing improper use of LARGE_PHARMA’s internal files by ingesting real time data from the Box platform
+
+  - Role: IT Intern
+    Entity: L3Harris
+    Started: July 2018
+    Stopped: Sept 2018
+    Details:
+      - PC Hardware support and sysadmin for Windows and Linux
+
   - Role: Food and Beverage Assistant
     Entity: Hilton Hotels
     Started: xxx
     Stopped: yyy
     Details:
       - Served food
+
+Education:
+  - Entity: Tewkesbury High School
+    Location: Tewkesbury, UK
+    Credentials:
+      - GCSE ...
 
 Projects:
   - Name: HTMX Forum
