@@ -1,0 +1,26 @@
+{{ define "experience" }}
+    <style>
+        .role {
+            display: flex;
+            justify-content: space-between;
+        }
+        .experience-details {
+            margin-top: 0.5em;
+        }
+    </style>
+    {{ range .Employment }}
+    <div class="role">
+        <div>
+            <strong>{{ .Role }},</strong> {{ .Entity }} {{ if .Location }}– {{ .Location }}{{ end }}
+        </div>
+        <div class="dates">
+            {{ .Started }} – {{ if .Stopped }}{{ .Stopped }}{{ else }}Present{{ end }}
+        </div>
+    </div>
+    <ul class="experience-details">
+        {{ range .Details }}
+        <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+    {{ end }}
+{{ end }}

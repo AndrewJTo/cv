@@ -1,0 +1,16 @@
+{{ define "education" }}
+    <style>
+        .education {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+    {{ range .Education }}
+    <div class="education">
+        <div>
+            <strong>{{.Entity}}</strong> – {{ .Credential }}
+        </div>
+        <div>{{ .Attained }}</div>
+    </div>
+    {{ end }}
+{{ end }}

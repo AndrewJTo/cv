@@ -1,0 +1,26 @@
+{{ define "projects" }}
+    <style>
+        .project {
+            display: flex;
+            justify-content: space-between;
+        }
+        .project-details {
+            margin-top: 0.5em;
+        }
+    </style>
+    {{ range .Projects }}
+    <div class="project">
+        <div>
+            <strong>{{ .Name }},</strong> {{ .Role }}
+        </div>
+        <div>
+            {{ .Year }}
+        </div>
+    </div>
+    <ul class="project-details">
+        {{ range .Details }}
+        <li>{{ . }}</li>
+        {{ end}}
+    </ul>
+    {{ end }}
+{{ end }}

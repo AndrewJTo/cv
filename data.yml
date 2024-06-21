@@ -24,16 +24,24 @@ Skills:
     - Gitlab CI
 
 Contact:
-  Email: andrewjto@proton.me
-  Web: andrewt.xyz
-  Linkedin: "https://www.linkedin.com/in/andrewjtowers/"
-  GitHub: "https://github.com/AndrewJTo/"
+  Email:
+    Text: andrewjto@proton.me
+    Link: mailto:andrewjto@proton.me
+  Web:
+    Text: andrewt.xyz
+    Link: https://andrewt.xyz
+  LinkedIn:
+    Text: linkedin.com/in/andrewjtowers
+    Link: https://www.linkedin.com/in/andrewjtowers/
+  GitHub:
+    Text: github.com/AndrewJTo/
+    Link: https://github.com/AndrewJTo/
 
 Employment:
   - Role: Software Engineer
     Entity: Netbuilder
+    Location: Brighton, UK
     Started: Nov 2020
-    Stopped: Present
     Details:
       - Developed a microservices based REST API for an end to end HR application, using Typescript and Node.js
       - Improved the application's authorization and authentication system. By reducing JWT size and caching access control information in Redis, resulting in a 50% improvement on application load time
@@ -66,10 +74,10 @@ Employment:
       - Served food
 
 Education:
-  - Entity: Tewkesbury High School
-    Location: Tewkesbury, UK
-    Credentials:
-      - GCSE ...
+  - Entity: University of Leeds
+    Location: Leeds, UK
+    Attained: July 2020
+    Credential: BSc. Computer Science
 
 Projects:
   - Name: HTMX Forum
@@ -77,3 +85,27 @@ Projects:
     Role: Developer / Lead
     Details:
       - Forum web application with frontend written in HTMX and backend in Go.
+
+  - Name: Railway vehicle schedule visualiser and editor
+    Role: University Project
+    Year: "2020"
+    Details:
+      - Built an application in Java for visualising rolling stock schedules, allowing for live alterations. Giving train companies the ability to see the effect of small schedule changes on the rest of the day's operations
+
+  - Name: Bike sharing application
+    Role: University Project
+    Year: "2019"
+    Details:
+      - Built a distributed bike sharing application using microservices for renting bikes in Leeds. Using Go, Java, Angular and MongoDB.
+
+  - Name: Banking Game
+    Role: Hackathon Game
+    Year: "2018"
+    Details:
+      - Developed a mobile game written in Kotlin for a hackathon sponsored by HSBC. The aim of the project was to teach children the importance of saving. Achieved 1st place
+
+  - Name: Passive People Tracker
+    Role: Engineering Development Trust (EDT) Project
+    Year: "2016"
+    Details:
+      - Developed a proof of concept using 3 Raspberry Pis and Python to passively track phone locations using WiFi signals. Sponsored by local defence firm (L3 Harris)

@@ -1,0 +1,12 @@
+{{ define "skills" }}
+    <style>
+      #skills {
+        margin-top: 0;
+      }
+    </style>
+    <p id="skills">
+      {{ range $key, $value := .Skills }}
+      <strong>{{ $key }}</strong>: {{ range $index, $skill := $value }}{{if $index}}, {{end}}{{ $skill }}{{ end }}
+      <br />{{ end }}
+    </p>
+{{ end }}

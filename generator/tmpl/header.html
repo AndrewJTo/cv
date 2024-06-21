@@ -1,0 +1,15 @@
+{{ define "header" }}
+    <style>
+      #name {
+        margin-bottom: 0;
+        font-size:3rem;
+      }
+      .contact {
+        margin-top: 0;
+      }
+    </style>
+    <h1 id="name">{{ .Name }}</h1>
+    <p class="contact">{{ range $key, $value := .Contact }}
+      <a id="{{ $key }}" href="{{ $value.Link }}">{{ $value.Text }}</a>{{ end }}
+    </p>
+{{ end }}
