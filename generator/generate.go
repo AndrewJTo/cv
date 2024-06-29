@@ -5,16 +5,18 @@ import (
 	"html/template"
 	"log"
 	"os"
+	"path/filepath"
 
 	"gopkg.in/yaml.v2"
 )
 
 func main() {
 	dataFile := flag.String("data", "./data.yml", "File containing CV data")
+	templateDir := flag.String("template", "./tmpl", "File containing templates")
 
 	flag.Parse()
 
-	tmpl := template.Must(template.ParseGlob("./tmpl/*.html"))
+	tmpl := template.Must(template.ParseGlob("./" + filepath.Clean(*templateDir) + "/*.html"))
 
 	data := map[string]interface{}{}
 	buf, err := os.ReadFile(*dataFile)
