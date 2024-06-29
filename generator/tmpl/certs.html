@@ -1,0 +1,16 @@
+{{ define "certs" }}
+    <style>
+        .certs {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+    {{ range .Certs }}
+    <div class="certs">
+        <div>
+            <strong>{{.Entity}}</strong>
+        </div>
+        <div>{{ .Attained }}</div>
+    </div>
+    {{ end }}
+{{ end }}
